@@ -14,8 +14,8 @@
 class RainbowCake extends Cake {
     //put your code here
     function __construct() {
-        parent::__construct("rainbow cake", 30);
-        $this->ingredients = ["flour", "eggs", "sugar",];
+        parent::__construct("rainbow cake", 530);
+        $this->ingredients = ["crevettes", "eggs", "brocoli","danette", "confiture"];
         $this->picture = "./rainbow.jpg";
            
     }

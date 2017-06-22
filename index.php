@@ -6,14 +6,16 @@ include_once './ApplePie.php';
 include_once './RainbowCake.php';
 
 
-$cakes = [new Cheesecake(), new RainbowCake(), new ApplePie()];
+$cakes = [new Cheesecake(), new Cheesecake(), new RainbowCake(), new ApplePie()];
 
 
 foreach ($cakes as $cake) {
     echo $cake . '<br/>';
     echo '<img src="' . $cake->picture . '" width = "100px"><br/>';
-    
+    foreach ($cake->ingredients as $ingre) {
+        echo $ingre;
     }
+}
     
     
 

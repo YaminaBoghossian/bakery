@@ -14,8 +14,8 @@
 class Cheesecake extends Cake{
     
     function __construct() {
-        parent::__construct("Cheesecake", 26);
-        $this->ingredients = ['cheese', 'caramel', 'sugar'];
+        parent::__construct("Cheesecake", 260);
+        $this->ingredients = ['carambar', 'poireau', 'steak'];
         $this->picture = './cheesecake.jpg';
     }
     

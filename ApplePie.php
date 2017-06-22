@@ -14,8 +14,8 @@
 class ApplePie extends Cake {
     //put your code here
     function __construct() {
-        parent::__construct("apple pie", 20);
-        $this->ingredients = ["apples", "sugar", "flour"];
+        parent::__construct("apple pie", 350);
+        $this->ingredients = ["apples", "nutella", "lotte"];
         $this->picture = "./index.jpeg";
         
     }
